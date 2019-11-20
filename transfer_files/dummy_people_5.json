@@ -1,0 +1,177 @@
+[
+  {
+    "id": "5dd5b09d319e5dbc4fce8b56",
+    "name": "Iris Dennis",
+    "index": 0,
+    "guid": "a0819b4a-e89b-43dd-87c8-06a3589a471e",
+    "isActive": false,
+    "balance": "$1,684.05",
+    "age": 25,
+    "eyeColor": "green",
+    "gender": "female",
+    "company": "SONGBIRD",
+    "email": "irisdennis@songbird.com",
+    "phone": "+1 (949) 481-3112",
+    "address": "870 Lancaster Avenue, Homestead, Virginia, 608",
+    "about": "Quis nisi nisi culpa ullamco ipsum qui fugiat. Irure culpa quis sunt magna ipsum voluptate Lorem id laboris aliquip Lorem. Commodo nisi dolor ut quis qui incididunt magna labore. Sint adipisicing magna reprehenderit voluptate irure duis fugiat proident non. Tempor sunt in magna minim. Consequat labore ut consectetur duis.\r\n",
+    "registered": "2018-07-07T05:23:23 +04:00",
+    "latitude": -53.2796,
+    "longitude": 18.093087,
+    "friends": [
+      {
+        "friendId": 0,
+        "friendName": "Alfreda Bruce"
+      },
+      {
+        "friendId": 1,
+        "friendName": "Castaneda Potts"
+      },
+      {
+        "friendId": 2,
+        "friendName": "Tiffany Johnston"
+      }
+    ],
+    "greeting": "Hello, Iris Dennis! You have 6 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "id": "5dd5b09d23f5cf485b09ed91",
+    "name": "Marjorie Walton",
+    "index": 1,
+    "guid": "2a09cc3d-1f8e-495f-96f1-ef88b40d3754",
+    "isActive": false,
+    "balance": "$1,590.63",
+    "age": 21,
+    "eyeColor": "blue",
+    "gender": "female",
+    "company": "EXOSPEED",
+    "email": "marjoriewalton@exospeed.com",
+    "phone": "+1 (822) 561-2474",
+    "address": "273 Albany Avenue, Nash, New Mexico, 7428",
+    "about": "Non nulla fugiat id labore quis. Lorem deserunt esse consectetur esse ipsum eu proident quis et magna. Ad ullamco id do enim. Eu excepteur irure occaecat qui.\r\n",
+    "registered": "2018-06-07T02:40:03 +04:00",
+    "latitude": -17.691778,
+    "longitude": 159.331728,
+    "friends": [
+      {
+        "friendId": 0,
+        "friendName": "Josefa Oneill"
+      },
+      {
+        "friendId": 1,
+        "friendName": "Cathy Walters"
+      },
+      {
+        "friendId": 2,
+        "friendName": "Warner Rice"
+      }
+    ],
+    "greeting": "Hello, Marjorie Walton! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "id": "5dd5b09dc1fb205b3831e6b5",
+    "name": "Rice Cooper",
+    "index": 2,
+    "guid": "549b4f88-e98f-4c5b-a0a6-3035f4e70197",
+    "isActive": true,
+    "balance": "$2,203.75",
+    "age": 27,
+    "eyeColor": "hazel",
+    "gender": "male",
+    "company": "LOTRON",
+    "email": "ricecooper@lotron.com",
+    "phone": "+1 (878) 582-3915",
+    "address": "807 Front Street, Wells, Georgia, 3629",
+    "about": "Dolore nisi aliqua voluptate reprehenderit minim tempor. Dolore labore nulla sint consectetur cupidatat adipisicing Lorem magna id elit aliqua elit eu fugiat. Nulla aliquip laborum sint consectetur pariatur et irure consectetur Lorem voluptate. Sint commodo et id fugiat voluptate consectetur tempor commodo exercitation irure occaecat ut adipisicing nisi. Eiusmod do eiusmod commodo do anim occaecat nostrud. Irure esse est duis ipsum aliqua.\r\n",
+    "registered": "2019-01-05T12:32:08 +05:00",
+    "latitude": -1.141972,
+    "longitude": 1.015898,
+    "friends": [
+      {
+        "friendId": 0,
+        "friendName": "Holder Douglas"
+      },
+      {
+        "friendId": 1,
+        "friendName": "Doris Carter"
+      },
+      {
+        "friendId": 2,
+        "friendName": "Gaines Martinez"
+      }
+    ],
+    "greeting": "Hello, Rice Cooper! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "id": "5dd5b09d4fce15d4a2fdb811",
+    "name": "Sullivan Reed",
+    "index": 3,
+    "guid": "4f171e0d-c472-4b36-a792-800052789c20",
+    "isActive": true,
+    "balance": "$2,358.56",
+    "age": 34,
+    "eyeColor": "green",
+    "gender": "male",
+    "company": "SUREMAX",
+    "email": "sullivanreed@suremax.com",
+    "phone": "+1 (972) 442-2252",
+    "address": "328 Ludlam Place, Swartzville, North Dakota, 7825",
+    "about": "Veniam sit sunt aliquip tempor dolore veniam laborum labore voluptate. Eu reprehenderit ea voluptate deserunt adipisicing ipsum dolor esse dolore. Reprehenderit occaecat magna reprehenderit excepteur quis. Elit sunt duis cillum mollit pariatur eu. Sit mollit anim laborum fugiat sunt ut duis nisi laboris aliqua exercitation sunt anim. Laborum id ea proident deserunt veniam fugiat et sit proident fugiat.\r\n",
+    "registered": "2015-11-07T09:17:41 +05:00",
+    "latitude": -34.643919,
+    "longitude": 33.525361,
+    "friends": [
+      {
+        "friendId": 0,
+        "friendName": "Taylor Hahn"
+      },
+      {
+        "friendId": 1,
+        "friendName": "Gwen Wolf"
+      },
+      {
+        "friendId": 2,
+        "friendName": "Jennings Benson"
+      }
+    ],
+    "greeting": "Hello, Sullivan Reed! You have 6 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "id": "5dd5b09d404ddc9ded48128f",
+    "name": "Gilda Ayers",
+    "index": 4,
+    "guid": "d78da681-324e-491b-905c-1ab66e121f24",
+    "isActive": true,
+    "balance": "$1,379.48",
+    "age": 35,
+    "eyeColor": "green",
+    "gender": "female",
+    "company": "NEUROCELL",
+    "email": "gildaayers@neurocell.com",
+    "phone": "+1 (948) 480-3949",
+    "address": "108 Hazel Court, Nord, Kansas, 9488",
+    "about": "Enim sunt adipisicing ut ad esse anim deserunt eiusmod commodo ullamco duis aliqua dolor. Consectetur veniam ullamco non voluptate laboris nulla. Et laboris pariatur culpa officia esse quis id deserunt esse.\r\n",
+    "registered": "2019-05-10T08:23:26 +04:00",
+    "latitude": 30.379517,
+    "longitude": -46.036444,
+    "friends": [
+      {
+        "friendId": 0,
+        "friendName": "Katelyn Velazquez"
+      },
+      {
+        "friendId": 1,
+        "friendName": "Juliana Huber"
+      },
+      {
+        "friendId": 2,
+        "friendName": "Opal Pitts"
+      }
+    ],
+    "greeting": "Hello, Gilda Ayers! You have 3 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]

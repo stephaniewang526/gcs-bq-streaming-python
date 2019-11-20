@@ -1,0 +1,35 @@
+{
+  "id": "5dd5b09d319e5dbc4fce8b56",
+  "name": "Iris Dennis",
+  "index": 0,
+  "guid": "a0819b4a-e89b-43dd-87c8-06a3589a471e",
+  "isActive": false,
+  "balance": "$1,684.05",
+  "age": 25,
+  "eyeColor": "green",
+  "gender": "female",
+  "company": "SONGBIRD",
+  "email": "irisdennis@songbird.com",
+  "phone": "+1 (949) 481-3112",
+  "address": "870 Lancaster Avenue, Homestead, Virginia, 608",
+  "about": "Quis nisi nisi culpa ullamco ipsum qui fugiat. Irure culpa quis sunt magna ipsum voluptate Lorem id laboris aliquip Lorem. Commodo nisi dolor ut quis qui incididunt magna labore. Sint adipisicing magna reprehenderit voluptate irure duis fugiat proident non. Tempor sunt in magna minim. Consequat labore ut consectetur duis.\r\n",
+  "registered": "2018-07-07T05:23:23 +04:00",
+  "latitude": -53.2796,
+  "longitude": 18.093087,
+  "friends": [
+    {
+      "friendId": 0,
+      "friendName": "Alfreda Bruce"
+    },
+    {
+      "friendId": 1,
+      "friendName": "Castaneda Potts"
+    },
+    {
+      "friendId": 2,
+      "friendName": "Tiffany Johnston"
+    }
+  ],
+  "greeting": "Hello, Iris Dennis! You have 6 unread messages.",
+  "favoriteFruit": "strawberry"
+}

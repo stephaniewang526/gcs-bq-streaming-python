@@ -1,0 +1,36 @@
+
+  {
+    "id": "5dd5b833ae5ff11bb0266a2e",
+    "name": "Roxie Brooks",
+    "index": 0,
+    "guid": "31b55bb4-b13c-4c85-b654-1af1c27eecba",
+    "isActive": false,
+    "balance": "$2,785.96",
+    "age": 35,
+    "eyeColor": "green",
+    "gender": "female",
+    "company": "COSMETEX",
+    "email": "roxiebrooks@cosmetex.com",
+    "phone": "+1 (909) 473-2778",
+    "address": "343 Waldorf Court, Zarephath, Kansas, 6266",
+    "about": "Nostrud cillum ad consequat non. Id reprehenderit dolor Lorem duis laborum nostrud aute minim adipisicing proident veniam. Elit duis ex occaecat do esse esse tempor sit anim eu consectetur id. Eu non ad sunt esse ea eu duis. Sunt do dolore excepteur eiusmod irure occaecat. Ex duis aliqua enim occaecat.\r\n",
+    "registered": "2014-04-27T09:40:02 +04:00",
+    "latitude": -30.407649,
+    "longitude": -119.510504,
+    "friends": [
+      {
+        "friendId": 0,
+        "friendName": "Paige Wall"
+      },
+      {
+        "friendId": 1,
+        "friendName": "Reynolds Buckner"
+      },
+      {
+        "friendId": 2,
+        "friendName": "English Patton"
+      }
+    ],
+    "greeting": "Hello, Roxie Brooks! You have 2 unread messages.",
+    "favoriteFruit": "strawberry"
+  }

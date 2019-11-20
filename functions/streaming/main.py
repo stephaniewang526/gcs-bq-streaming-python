@@ -39,7 +39,7 @@ import pytz
 
 PROJECT_ID = os.getenv('GCP_PROJECT')
 BQ_DATASET = 'people_pets'
-BQ_TABLE = 'basic_info'
+BQ_TABLE = 'people'
 ERROR_TOPIC = 'projects/%s/topics/%s' % (PROJECT_ID, 'streaming_error_topic')
 SUCCESS_TOPIC = 'projects/%s/topics/%s' % (PROJECT_ID, 'streaming_success_topic')
 DB = firestore.Client()
@@ -81,13 +81,10 @@ def _handle_duplication(db_ref):
 
 def _insert_into_bigquery(bucket_name, file_name):
     blob = CS.get_bucket(bucket_name).blob(file_name)
-    row = json.loads(blob.download_as_string())
+    rows_to_insert = json.loads(blob.download_as_string())
     table = BQ.dataset(BQ_DATASET).table(BQ_TABLE)
-    errors = BQ.insert_rows_json(table,
-                                 json_rows=[row],
-                                 row_ids=[file_name],
-                                 retry=retry.Retry(deadline=30))
-    if errors != []:
+    errors = BQ.insert_rows(table, rows_to_insert)
+    if errors:
         raise BigQueryError(errors)
 
 
