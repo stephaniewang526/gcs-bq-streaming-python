@@ -1,0 +1,19 @@
+{
+  "id": "1",
+  "name": "Stephanie",
+  "age": "27",
+  "city": "New York",
+  "comment": "Hi, we're new to the building. Would love to make new furiends!",
+  "pets": [
+    {
+      "petType": "dog",
+      "petName": "Sasha",
+      "petAge": "3"
+    },
+    {
+      "petType": "fish",
+      "petName": "Nemo",
+      "petAge": "1"
+    }
+  ]
+}
