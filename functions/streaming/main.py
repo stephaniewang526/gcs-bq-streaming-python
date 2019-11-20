@@ -81,9 +81,11 @@ def _handle_duplication(db_ref):
 
 def _insert_into_bigquery(bucket_name, file_name):
     blob = CS.get_bucket(bucket_name).blob(file_name)
-    rows_to_insert = json.loads(blob.download_as_string())
+    rows = json.loads(blob.download_as_string())
     table = BQ.dataset(BQ_DATASET).table(BQ_TABLE)
-    errors = BQ.insert_rows(table, rows_to_insert)
+    errors = BQ.insert_rows_json(table,
+                                 json_rows=rows,
+                                 retry=retry.Retry(deadline=30))
     if errors:
         raise BigQueryError(errors)
 
