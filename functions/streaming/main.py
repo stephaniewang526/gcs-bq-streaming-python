@@ -36,7 +36,6 @@ from google.cloud import storage
 import pytz
 
 
-
 PROJECT_ID = os.getenv('GCP_PROJECT')
 BQ_DATASET = 'people_pets'
 BQ_TABLE = 'people'

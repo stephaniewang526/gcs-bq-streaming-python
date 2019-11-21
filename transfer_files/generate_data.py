@@ -1,9 +1,11 @@
 import datetime
 import json
+import os
 import random
 import uuid
 import lorem
 import pandas as pd
+import sys
 
 
 def people_generator(length):
@@ -13,7 +15,7 @@ def people_generator(length):
     yield {
         'id': generate_id(),
         'name': generated_name,
-        'index': x,
+        'index': random.randrange(0,100,1),
         'guid': generate_id(),
         'isActive': bool(random.getrandbits(1)),
         'balance': generate_balance(),
@@ -86,18 +88,22 @@ def generate_date():
   return str(date).split(' ')[0]
 
 
-filename = 'py-generated'
-REPEAT = 5
-EYE_COLORS = ['Brown', 'Blue', 'Black', 'Hazel', 'Grey', 'Maroon', 'Red', 'Dragon']
+EYE_COLORS = ['Brown', 'Blue', 'Black', 'Hazel', 'Grey', 'Maroon', 'Red', 'Rainbow']
 GENDERS = ['Female', 'Male', 'Non-binary/ third gender', 'Prefer not to say']
 COMPANIES = get_snp500_companies()
 FRUITS = ['Apple', 'Pear', 'Kiwi', 'Strawberry', 'Raspberry', 'Blackberry', 'Orange', 'Banana']
+LENGTH = 1000
 
-people_objs = people_generator(REPEAT)
-with open('%s.json' % filename, 'w') as output:
-  output.write('[')
-  for obj in people_objs:
-    json.dump(obj, output)
-    output.write(',')
-  output.write(']')
-print("You're awesome! You just made " + str(REPEAT) + " people!")
+def main(filename):
+  people_objs = people_generator(LENGTH)
+  with open('%s.json' % filename, 'w') as output:
+    output.write('[')
+    for i, obj in enumerate(people_objs):
+      json.dump(obj, output)
+      if i < LENGTH-1:
+        output.write(',')
+    output.write(']')
+
+
+if __name__ == '__main__':
+  main(sys.argv)
